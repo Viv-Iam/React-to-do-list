@@ -5,9 +5,9 @@ import './App.css';
 function App() {
   return (
     <div>
-    <input type="checkbox" /> <p>I have a bike</p>
-    <input type="checkbox" /> <p>I have a car</p>
-    <input type="checkbox" /> <p>I have a boat</p>
+    <input type="checkbox"/> <p className='p1'>I have a bike</p>
+    <input type="checkbox"/> <p className='p2'>I have a car</p>
+    <input type="checkbox"/> <p className='p3'>I have a boat</p>
     </div>
   )
 }
